@@ -2,7 +2,8 @@ This project contains:
 
 The calculation of Single Digit, API, User CRUD, Cache, and  RSA Cryptography modules
 
--------------------------------------- Compile and application execution --------------------------------------------------------------------------------------------------------------------------
+ Compile and application execution 
+ --------------------------------------------------------------------------------------------------------------------------
 
 Java8 is required (jdk8 to run the project)
 
@@ -13,11 +14,11 @@ Java8 is required (jdk8 to run the project)
  
  Ensure that port 8080 is not being used at the time of testing
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2 - How to perform unitary tests on the project
 
  Right-click on the project and click run as "JUnit
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3 - Additional comments
 Database access:
 H2 memory bank used. Access its interface at:
@@ -29,7 +30,7 @@ interface:
 http: // localhost: 8080 / swagger-ui.html
 json:
 http: // localhost: 8080 / v2 / api-docs
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 To test the implemented encryption I suggest using the jar that I implemented and it is inside the TestCriptografia folder that is in the root directory
 from the project.
 Within that folder is an EXECUTABLE JAR. Just run it via COMMAND PROMPT "java -jar SimulaCliente.jar".

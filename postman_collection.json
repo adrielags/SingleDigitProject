@@ -1,0 +1,692 @@
+{
+	"info": {
+		"_postman_id": "d57ce495-1a31-4130-a0d6-dac40d08538b",
+		"name": "testesApiInter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cadastrarUsuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "79165964-40e0-465e-b30a-4104cf79131d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Adriel\",\r\n    \"email\": \"adriel@teste.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/cadastrar",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"cadastrar"
+					]
+				},
+				"description": "teste"
+			},
+			"response": []
+		},
+		{
+			"name": "cadastrarUsuario2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4c908d82-23d6-412e-884d-28ada621a087",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Fulano\",\r\n    \"email\": \"fulano@teste.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/cadastrar",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"cadastrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cadastrarUsuario3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4f8f59f0-8604-42f8-bb1f-6e72235e656f",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Ciclano\",\r\n    \"email\": \"ciclano@teste.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/cadastrar",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"cadastrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cadastrarUsuario4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "b0566960-926d-46cf-ae0c-1b72637655bb",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Beltrano\",\r\n    \"email\": \"bel@re.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/cadastrar",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"cadastrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cadastrarUsuario5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "13433e52-94fa-4981-8b82-dadccf0945f0",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"teste5\",\r\n    \"email\": \"teste5@teste.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/cadastrar",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"cadastrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "atualizarUsuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4002d152-c810-4e4c-9b78-09fd7c6f8d58",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"NovoNome\",\r\n    \"email\": \"testeatualizacao@teste.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/1",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletarUsuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "49c5af00-3f32-4fe1-bb42-ced1f6bb1d25",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/5",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buscaUsuarioPorId",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "15d89af6-e3ea-49a6-8e15-f71371bb6ddb",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/1",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calcularDigitoUnico Usuario1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e395e134-5ba8-4c47-9626-849db47cacde",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"parametroN\": \"9875\",\r\n    \"parametroK\": 4,\r\n    \"usuarioId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/digitounico/calcularDigitoUnico",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"digitounico",
+						"calcularDigitoUnico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calcularDigitoUnicoSimplificado Usuario2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1044e852-d56e-4de6-a4ce-dbe32514f292",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"parametroN\": \"13132154645645611312165156132123156468416513216548641261264848516135156\",\r\n    \"parametroK\": 10000,\r\n    \"usuarioId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/digitounico/calcularDigitoUnicoSimplificado",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"digitounico",
+						"calcularDigitoUnicoSimplificado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calcularDigitoUnico Usuario3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "db281ca5-67c6-4f03-860c-4bbe555f95c4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"parametroN\": \"1234564879\",\r\n    \"parametroK\": 6,\r\n    \"usuarioId\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/digitounico/calcularDigitoUnico",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"digitounico",
+						"calcularDigitoUnico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calcularDigitoUnico Sem usuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "293a3dd1-7039-45b2-89a5-1cc4dab8e2de",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"parametroN\": \"12346548878455999\",\r\n    \"parametroK\": 20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/digitounico/calcularDigitoUnico",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"digitounico",
+						"calcularDigitoUnico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calcularDigitoUnico Simplificado",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "48efa393-6777-4c42-935b-228f78a464ee",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"parametroN\": \"1234\",\r\n    \"parametroK\": 4\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/digitounico/calcularDigitoUnicoSimplificado",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"digitounico",
+						"calcularDigitoUnicoSimplificado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "recuperaListaDigitoUnicoUsuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5bc7c064-c73a-4838-be47-ec497374f916",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlAPI}}/api/digitounico/usuario/3",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"digitounico",
+						"usuario",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enviaChavePublicaUsuario",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a9718f65-af09-43df-9975-60614e7b1280",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"chave\": \"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4OtTAF/g73G1sIQ8S+uuPFawI+dsCJRnKEh/B7p4odUgK2HdELftTscAPSzApk9SMITqNSYXofp3u9PS2EEDXW6qu+uuYGswzSxHp+yq8cmhcdDQgMdIW9bOS4N+ePGv31oJLzWB2tBzWOs8kOWfpmYO7DwmyoJ/R4xIkcyx85JTgOoWPPzupEqjFDBa3ShIKIZCOr9xrOiuaCaChrt5XE/Hod2/R5FNaBKB5FTOL07LEpSuaLAuprPGDJBaDZGE5a6BkQvxwQdgzzMwyECQlLVw5kO2NPNOMvgLKXs7NNlTERpypcmJLFvkZFW/CEBoNfzvxuZIB8oe+GESauAycQIDAQAB\",\r\n    \"usuarioId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{urlAPI}}/api/chaves/enviachavepublica",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"chaves",
+						"enviachavepublica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buscaUsuarioPorIdAposCriptografia",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "03fe811f-d3a2-4e0d-a84c-4582fb023de4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{urlAPI}}/api/usuario/1",
+					"host": [
+						"{{urlAPI}}"
+					],
+					"path": [
+						"api",
+						"usuario",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "29c7991c-acec-4b1e-8038-f9d57d1d7322",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "14033e31-d01c-4b86-be71-f86407c54a59",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "d937bf88-eafb-4d5c-a657-e2b3efb7fef3",
+			"key": "urlAPI",
+			"value": ""
+		}
+	],
+	"protocolProfileBehavior": {}
+}

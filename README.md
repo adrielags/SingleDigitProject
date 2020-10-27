@@ -1,21 +1,69 @@
-This project contains:
+ Project Content
+ -------------------------------------------------------------------------------------------------------------------------
+ 
+ The calculation of Single Digit, API, User CRUD, Cache, and  RSA Cryptography modules
+ 
+ Single digit - DigitoUnico related classes
+ --------------------------------------------------------------------------------------------------------------------------
+ Given an integer, we need to find the single digit of the integer.
+ If x has only one digit, then its unique digit is x.
+ Otherwise, the single digit of x is equal to the single digit of the
+ sum of x digits.
+ For example, the single digit of 9875 will be calculated as:
+ single_type (9875) 9 + 8 + 7 + 5 = 29
+ single_digit (29) 2 + 9 = 11
 
-The calculation of Single Digit, API, User CRUD, Cache, and  RSA Cryptography modules
+ Given two numbers n and k, P must be created from the concatenation of the string
+ n * k.
+ Example:
+ n = 9875 and k = 4 so p = 9875 9875 9875 9875
+ singleType§ = singleType (9875987598759875)
+ 5 + 7 + 8 + 9 + 5 + 7 + 8 + 9 + 5 + 7 + 8 + 9 + 5 + 7 + 8 + 9 = 116
+ 
+ User CRUD
+ --------------------------------------------------------------------------------------------------------------------------
+ A CRUD for users is created.
+ A user has a name, email and a list of search results.
+ Single digits "digitoUnicos" already calculated.
+ Each object in the results list must contain which
+ input parameters of the calculation and what the result
+ 
+ Cache
+ --------------------------------------------------------------------------------------------------------------------------
+ A memory cache was created to store
+ last 10 calculations performed for digitoUnicos, this cache is
+ independent of user, that is, if a calculation has already been performed and
+ is in the cache it will not be necessary to execute the digit function
+ single. 
+ 
+ Cryptography
+ ----------------------------------------------------------------------------------------------------------------------------
+ Used RSA Cryptography
+ 
+ API
+ ---------------------------------------------------------------------------------------------------------------------------
+ Endpoints should are available to users' CRUD.
+ An endpoint for calculating the single digit is provided.
+ It was created an endpoint  created that retrieves all calculations
+ for a particular user.
+ It also contains an endpoint to send the public key of the
+ user that will be used for encryption. This API
+ receives a string that will contain the key.
 
  Compile and application execution 
  --------------------------------------------------------------------------------------------------------------------------
 
-Java8 is required (jdk8 to run the project)
+  Java8 is required (jdk8 to run the project)
 
  The project was developed in Spring Tool Suit 4, for STS or Eclipse with STS just click the right button in the project directory and in the option "Run as" click on "String Boot App"
  This form would be ideal for running the application.
  
- If this option is not available, it is also possible to execute it by clicking on "maven build ...", in which case spring-boot: run must be entered in the Goals field.
+  If this option is not available, it is also possible to execute it by clicking on "maven build ...", in which case spring-boot: run must be entered in the Goals field.
  
  Ensure that port 8080 is not being used at the time of testing
 
 
- How to perform unitary tests on this project
+ How to perform unit tests on this project
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  Right-click on the project and click run as "JUnit"
  
